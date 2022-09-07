@@ -13,7 +13,7 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.SQL = new SQLBase("localhost", "8889", "link_key", "root", "ROOT_PW");
+        this.SQL = new SQLBase("localhost", "8889", "link_key", "root", "ROOTPW");
         SQLGetter data = new SQLGetter(SQL);
         try {
             SQL.connect();
