@@ -1,0 +1,8 @@
+name: TakaLinkPlugin
+version: '${project.version}'
+main: oracle.takapc.Main
+api-version: 1.16
+
+commands:
+  link:
+    usage: Linkkkkkkkkkkk
